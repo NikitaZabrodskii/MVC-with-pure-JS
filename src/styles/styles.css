@@ -1,0 +1,40 @@
+.Content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Text {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.HumanVolume {
+  width: 300px;
+  height: 400px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.BottleVolume {
+  width: 200px;
+  height: 250px;
+  border: 1px solid black;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Btn {
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border-radius: 18px;
+  background-color: aqua;
+  border: none;
+}
